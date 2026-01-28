@@ -13,12 +13,6 @@ Sistema de gerenciamento de pedidos desenvolvido como teste técnico para vaga d
 - [Funcionalidades](#funcionalidades)
 - [Arquitetura](#arquitetura)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação e Execução](#instalação-e-execução)
-- [Endpoints da API](#endpoints-da-api)
-- [Exemplos de Uso](#exemplos-de-uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Otimizações Implementadas](#otimizações-implementadas)
 - [Testes](#testes)
 
 ## 🎯 Sobre o Projeto
@@ -122,3 +116,28 @@ Desenho da solução proposta:
                   │  PostgreSQL   │
                   │   Database    │
                   └───────────────┘
+
+
+
+ ## 🛠️ Tecnologias Utilizadas
+ 
+- **Java 17**
+- **Spring Boot 3.2.1**
+  - Spring Web
+  - Spring Data JPA
+  - Spring Validation
+  - Spring Cache
+- **PostgreSQL** (banco de dados)
+- **Lombok** (redução de boilerplate)
+- **Hikari** (connection pool)
+- **Maven** (gerenciamento de dependências)
+- **JUnit 5** (testes unitários)
+- **Mockito** (mocks para testes)
+- **AssertJ** (assertions fluentes)
+ 
+## 📦 Pré-requisitos
+ 
+- Java 17 ou superior
+- Maven 3.6+
+- PostgreSQL 12+
+- Git                 
