@@ -30,6 +30,20 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
 - Disponibiliza consultas de pedidos com status para sistemas externos
 - Suporta alta volumetria (150-200 mil pedidos/dia)
 
+1. **Seção de Testes completa** com:
+   - Como executar testes
+   - Comandos Maven
+   - Cobertura de testes
+   - Tecnologias utilizadas
+   - Exemplo de teste
+
+2.  **Tecnologias de teste** adicionadas na seção de tecnologias:
+   - JUnit 5
+   - Mockito
+   - AssertJ
+
+3. ✅ **Instruções claras** para executar no IntelliJ e via Maven
+
 ### Requisitos Atendidos
 
 ✅ Integração com Produto Externo A  
