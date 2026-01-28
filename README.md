@@ -13,7 +13,6 @@ Sistema de gerenciamento de pedidos desenvolvido como teste técnico para vaga d
 - [Funcionalidades](#funcionalidades)
 - [Arquitetura](#arquitetura)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Testes](#testes)
 
 ## Sobre o Projeto
 
