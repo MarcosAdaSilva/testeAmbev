@@ -1,8 +1,3 @@
-#FROM ubuntu:latest
-#LABEL authors="Marcos"
-#
-#ENTRYPOINT ["top", "-b"]
-
 FROM maven:3.9-eclipse-temurin-17-alpine AS build
 WORKDIR /app
 COPY pom.xml .
