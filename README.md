@@ -1,4 +1,4 @@
-# 🍺 Sistema de Gerenciamento de Pedidos - Teste Técnico Ambev
+# Sistema de Gerenciamento de Pedidos - Teste Técnico Ambev
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.1-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -7,21 +7,14 @@
 
 Sistema de gerenciamento de pedidos desenvolvido como teste técnico para vaga de **Java Sênior** na Ambev. A aplicação gerencia pedidos, calcula valores de produtos e integra-se com sistemas externos de produtos.
 
-## 📋 Índice
+## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Arquitetura](#arquitetura)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação e Execução](#instalação-e-execução)
-- [Endpoints da API](#endpoints-da-api)
-- [Exemplos de Uso](#exemplos-de-uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Otimizações Implementadas](#otimizações-implementadas)
-- [Testes](#testes)
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
 
@@ -42,20 +35,20 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
    - Mockito
    - AssertJ
 
-3. ✅ **Instruções claras** para executar no IntelliJ e via Maven
+3.  **Instruções claras** para executar no IntelliJ e via Maven
 
 ### Requisitos Atendidos
 
-✅ Integração com Produto Externo A  
-✅ Integração com Produto Externo B  
-✅ Cálculo de valores por produto e total do pedido  
-✅ Consulta de pedidos com status  
-✅ Armazenamento em banco de dados PostgreSQL  
-✅ Verificação de duplicação de pedidos  
-✅ Otimizações para alta volumetria  
-✅ Garantia de consistência e concorrência  
+ Integração com Produto Externo A  
+ Integração com Produto Externo B  
+ Cálculo de valores por produto e total do pedido  
+ Consulta de pedidos com status  
+ Armazenamento em banco de dados PostgreSQL  
+ Verificação de duplicação de pedidos  
+ Otimizações para alta volumetria  
+ Garantia de consistência e concorrência  
 
-## ⚡ Funcionalidades
+##  Funcionalidades
 
 ### Principais
 
@@ -80,7 +73,7 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
 - EXT-B-001: Água Mineral 500ml - R$ 2,50
 - EXT-B-002: Suco Natural 1L - R$ 6,90
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 O projeto segue os princípios **SOLID** e utiliza **Design Patterns** para garantir código limpo e manutenível.
 Desenho da solução proposta:
@@ -122,3 +115,28 @@ Desenho da solução proposta:
                   │  PostgreSQL   │
                   │   Database    │
                   └───────────────┘
+
+
+
+ ## Tecnologias Utilizadas
+ 
+- **Java 17**
+- **Spring Boot 3.2.1**
+  - Spring Web
+  - Spring Data JPA
+  - Spring Validation
+  - Spring Cache
+- **PostgreSQL** (banco de dados)
+- **Lombok** (redução de boilerplate)
+- **Hikari** (connection pool)
+- **Maven** (gerenciamento de dependências)
+- **JUnit 5** (testes unitários)
+- **Mockito** (mocks para testes)
+- **AssertJ** (assertions fluentes)
+ 
+## Pré-requisitos
+ 
+- Java 17 ou superior
+- Maven 3.6+
+- PostgreSQL 12+
+- Git                 
