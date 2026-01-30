@@ -35,7 +35,7 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
    - Mockito
    - AssertJ
 
-3.  **Instruções claras** para executar no IntelliJ e via Maven
+3.  **Instruções claras** para executar no IntelliJ, via Maven e para isso precisa subir um banco de dados Postgres e criar a conexão.
 4.  A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
    ## 🐳 Docker
 ### Executar com Docker Compose (Recomendado)
