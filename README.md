@@ -49,7 +49,7 @@ A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe
 
 #### Comandos
 
-**Subir a aplicação:**
+**Comandos para Subir e Parar a aplicação:**
 ```bash
 docker-compose up -d
 docker-compose down
