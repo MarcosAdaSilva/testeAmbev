@@ -37,17 +37,22 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
 
 3.  **Instruções claras** para executar no IntelliJ, via Maven e para isso precisa subir um banco de dados Postgres e criar a conexão.
 4.  A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
-   ## 🐳 Docker
+## 🐳 Docker
+
 ### Executar com Docker Compose (Recomendado)
+
+A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
+
 #### Pré-requisitos
 - Docker Desktop instalado
-#### Comandos
-**Subir a aplicação:**
-```bash`````
-docker-compose up -d
-**Parar a aplicação:**
-docker-compose down
 
+#### Comandos
+
+**Subir a aplicação:**
+```bash
+docker-compose up -d
+docker-compose up -d
+````
 ### Requisitos Atendidos
 
  Integração com Produto Externo A  
