@@ -36,6 +36,17 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
    - AssertJ
 
 3.  **Instruções claras** para executar no IntelliJ e via Maven
+4.  A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
+   ## 🐳 Docker
+### Executar com Docker Compose (Recomendado)
+#### Pré-requisitos
+- Docker Desktop instalado
+#### Comandos
+**Subir a aplicação:**
+```bash`````
+docker-compose up -d
+**Parar a aplicação:**
+docker-compose down
 
 ### Requisitos Atendidos
 
@@ -119,7 +130,7 @@ Desenho da solução proposta:
 
 
  ## Tecnologias Utilizadas
- 
+- **Docker**
 - **Java 17**
 - **Spring Boot 3.2.1**
   - Spring Web
