@@ -3,6 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.1-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue.svg)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Sistema de gerenciamento de pedidos desenvolvido como teste técnico para vaga de **Java Sênior** na Ambev. A aplicação gerencia pedidos, calcula valores de produtos e integra-se com sistemas externos de produtos.
@@ -35,8 +36,24 @@ Este projeto implementa um serviço de gerenciamento de pedidos (`order`) que:
    - Mockito
    - AssertJ
 
-3.  **Instruções claras** para executar no IntelliJ e via Maven
+3.  **Instruções claras** para executar no IntelliJ, via Maven e para isso precisa subir um banco de dados Postgres e criar a conexão.
+4.  A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
+## 🐳 Docker
 
+### Executar com Docker Compose (Recomendado)
+
+A forma mais fácil de executar a aplicação é usando Docker Compose, que sobe automaticamente a aplicação e o PostgreSQL.
+
+#### Pré-requisitos
+- Docker Desktop instalado
+
+#### Comandos
+
+**Comandos para Subir e Parar a aplicação:**
+```bash
+docker-compose up -d
+docker-compose down
+````
 ### Requisitos Atendidos
 
  Integração com Produto Externo A  
@@ -119,7 +136,7 @@ Desenho da solução proposta:
 
 
  ## Tecnologias Utilizadas
- 
+- **Docker**
 - **Java 17**
 - **Spring Boot 3.2.1**
   - Spring Web
